@@ -1,0 +1,27 @@
+.check {
+  padding-left: 1.2em;
+  cursor: pointer;
+}
+
+.checkInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.checkBox {
+  position: absolute;
+  width: 13px;
+  height: 14px;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none"%3E%3Cg clip-path="url(%23clip0_1_775)"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 7.32408C0 5.56824 0.684819 3.88433 1.90381 2.64277C3.12279 1.40121 4.77609 0.703705 6.5 0.703705C8.22391 0.703705 9.87721 1.40121 11.0962 2.64277C12.3152 3.88433 13 5.56824 13 7.32408C13 9.07991 12.3152 10.7638 11.0962 12.0054C9.87721 13.2469 8.22391 13.9444 6.5 13.9444C4.77609 13.9444 3.12279 13.2469 1.90381 12.0054C0.684819 10.7638 0 9.07991 0 7.32408Z" fill="%23E0E0E0"/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id="clip0_1_775"%3E%3Crect width="13" height="13.2407" fill="white" transform="translate(0 0.703705)"/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E');
+  margin-left: -1.2em;
+}
+
+.checkInput:hover + .checkBox {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none"%3E%3Cg clip-path="url(%23a)"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 7.324c0-1.756.685-3.44 1.904-4.681A6.44 6.44 0 0 1 6.5.703a6.44 6.44 0 0 1 4.596 1.94A6.683 6.683 0 0 1 13 7.324c0 1.756-.685 3.44-1.904 4.681a6.44 6.44 0 0 1-4.596 1.94 6.44 6.44 0 0 1-4.596-1.94A6.683 6.683 0 0 1 0 7.325Z" fill="%23616161"/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id="a"%3E%3Cpath fill="%23fff" d="M0 .704h13v13.241H0z"/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E');
+  transition-duration: 300ms;
+}
+
+.checkInput:checked + .checkBox {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none"%3E%3Cg clip-path="url(%23clip0_1_771)"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M0 7.32408C0 5.56824 0.684819 3.88433 1.90381 2.64277C3.12279 1.40121 4.77609 0.703705 6.5 0.703705C8.22391 0.703705 9.87721 1.40121 11.0962 2.64277C12.3152 3.88433 13 5.56824 13 7.32408C13 9.07991 12.3152 10.7638 11.0962 12.0054C9.87721 13.2469 8.22391 13.9444 6.5 13.9444C4.77609 13.9444 3.12279 13.2469 1.90381 12.0054C0.684819 10.7638 0 9.07991 0 7.32408H0ZM6.12907 10.1576L9.87133 5.39269L9.19533 4.84188L6.00427 8.90325L3.744 6.98511L3.18933 7.66304L6.12907 10.1585V10.1576Z" fill="black"/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id="clip0_1_771"%3E%3Crect width="13" height="13.2407" fill="white" transform="translate(0 0.703705)"/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E');
+}

@@ -1,0 +1,47 @@
+.container {
+    @apply flex flex-col space-y-12 justify-center items-center pt-3.5 px-5 md:px-0 md:pt-20 pb-12 w-full min-h-screen;
+}
+
+.main {
+    @apply flex flex-col md:flex-row space-y-7 md:space-y-0 pt-1.5 px-1.5 md:px-0 md:py-2.5 md:pl-2.5 rounded-[5px] md:rounded-[10px] bg-white;
+}
+
+.leftSide {
+    @apply flex flex-col space-y-3 md:space-y-28 items-center md:items-start w-full md:w-[491px] rounded-[5px] md:rounded-[10px] pt-3.5 md:pt-10 pb-6 md:pb-9 px-11 md:px-0 md:pr-28 md:pl-10 bg-black;
+}
+
+.rightSide {
+    @apply flex flex-col space-y-6 md:space-y-11 px-5 md:px-12;
+}
+
+.icon {
+  @apply hover:scale-125 transition hover:duration-300;
+}
+
+.iconLink {
+    @apply flex flex-col md:flex-row space-y-2.5 md:space-y-0 md:space-x-6 items-center md:items-start;
+}
+
+.iconLink:hover span {
+  @apply underline transition duration-300;
+}
+
+.iconLink:hover svg {
+  @apply scale-125 transition duration-300;
+}
+
+.iconDescription {
+    @apply font-['Poppins'] text-12 md:text-16 font-[400];
+}
+
+.input {
+    @apply flex flex-col space-y-5 md:space-y-0 md:flex-row md:space-x-10;
+}
+
+.checkbox {
+    @apply flex flex-col md:flex-row md:space-x-5;
+}
+
+.button {
+    @apply w-full md:h-14 rounded-[3px] md:rounded-[5px] font-['Poppins'] font-[500] text-12 md:text-16;
+}
