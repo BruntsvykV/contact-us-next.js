@@ -16,15 +16,15 @@ const Checkbox: React.FC<ICheckbox> = ({
 }: ICheckbox) => {
 
   return (
-    <div className={`${className} flex items-center`}>
+    <div className={className}>
       <label className={`${styles.check} flex items-center font-['Poppins'] font-[400] text-12 leading-20.2 hover:underline`}>
-        <input className={`${styles.checkInput} pl-2.5`}
+        <input className={`${styles.checkInput}`}
          type={"checkbox"}
          checked={checked}
          disabled={disabled}
         />
-          <span className={`${styles.checkBox}`}></span>
-        {label}
+          <span className={`${styles.checkBox} flex justify-start`}/>
+          <span className={"pl-2.5"}>{label}</span>
       </label>
     </div>
   )

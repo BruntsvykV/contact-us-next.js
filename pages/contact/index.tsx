@@ -126,15 +126,11 @@ const Contact = () => {
               <span className={"font-['Poppins'] font-[600] text-14 leading-20.2"}>
                 Select Subject?
               </span>
-              <div className={"flex flex-row space-x-5"}>
-                <div className={styles.checkbox}>
-                  <Checkbox label={"General Inquir2"}/>
-                  <Checkbox label={"General Inquir2"}/>
-                </div>
-                <div className={styles.checkbox}>
-                  <Checkbox label={"General Inquir2"}/>
-                  <Checkbox label={"General Inquir2"}/>
-                </div>
+              <div className={styles.checkbox}>
+                <Checkbox label={"General Inquir1"}/>
+                <Checkbox label={"General Inquir2"}/>
+                <Checkbox label={"General Inquir3"}/>
+                <Checkbox label={"General Inquir4"}/>
               </div>
             </div>
             <div className={"w-full"}>

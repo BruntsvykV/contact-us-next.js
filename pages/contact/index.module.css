@@ -39,7 +39,7 @@
 }
 
 .checkbox {
-    @apply flex flex-col md:flex-row md:space-x-5;
+    @apply grid grid-flow-row md:grid-flow-col grid-cols-1 sm:grid-cols-2 md:grid-cols-none sm:grid-rows-2 md:grid-rows-1 md:space-x-5;
 }
 
 .button {

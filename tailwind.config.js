@@ -1,12 +1,10 @@
-import type { Config } from 'tailwindcss'
+const pxToRem = (num) => `${num / 16}rem`; // translate pixel values to rem values
 
-const pxToRem = (num: number) => `${num / 16}rem`; // translate pixel values to rem values
-
-const config: Config = {
+module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx,css}',
+    './components/**/*.{js,ts,jsx,tsx,mdx,css}',
+    './app/**/*.{js,ts,jsx,tsx,mdx,css}',
   ],
   theme: {
     extend: {
@@ -140,4 +138,3 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config

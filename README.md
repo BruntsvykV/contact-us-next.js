@@ -1,6 +1,6 @@
 # This is an example Contact Us page using Next.js.
 
-# Demo viewing -- https://contact-us-next-js.vercel.app/contact
+# Demo viewing -- [Contact Us page](https://contact-us-next-js.vercel.app/contact)
 
 
 Prerequisites

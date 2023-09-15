@@ -4,7 +4,7 @@ import MailIcon from "@/lib/icons/mailIcon";
 import LocationIcon from "@/lib/icons/locationIcon";
 import Link from "next/link";
 import LogoIcon from "@/lib/icons/logoIcon";
-import styles from ".//Footer.module.css";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
 
